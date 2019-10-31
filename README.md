@@ -16,8 +16,8 @@ for detail and the original code.
 My RPF DQN re-implementaion works well but **more poorly** than the author's
 result left in the notebook.
 
-And it looks **the result is unstable** in that the expectated number of episodes
-it needs to get plus return has high variance(1200~3000 episodes).
+And **the result looks unstable** in that the number of episodes
+needed to get plus return varys greatly(1200~3000 episodes).
 
 So there's some possible reasons for that, say,
 - My implementaion is incorrect
