@@ -15,6 +15,10 @@ You can find the original notebook in the
 The original code is clear and quite readble, but unfortunately doesn't work without
 modification because of a dependency problem :cry:
 
+## Main result
+Here is the performance of ε-greedy/BootDQN/RPF/RPF+BootDQN in 20x20 DeepSea.
+
+![DeepSea experiment](./DeepSeaRPF.png)
 
 ## Caveats
 My RPF+BootDQN implementaion works well and cumulative regret stops
