@@ -3,6 +3,10 @@ This is my [PyTorch](https://pytorch.org/) re-implementaion of the code accompan
 [Randomized Prior Functions for Deep Reinforcement Learning](https://arxiv.org/abs/1806.03335)
 by me.
 
+You can play it in
+[this google collaboratory link](https://colab.research.google.com/github/kngwyu/rpf-pytorch/blob/master/rpf_pytorch.ipynb)
+.
+
 Plese see the
 [author's website](https://sites.google.com/corp/view/randomized-prior-nips-2018/home)
 for detail and the original code.
