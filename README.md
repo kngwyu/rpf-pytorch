@@ -12,7 +12,7 @@ exeperiments, like RPF without BootDQN.
 
 You can find the original notebook in the
 [author's website](https://sites.google.com/corp/view/randomized-prior-nips-2018/home).
-The original code is clear and quite readble, but unfortunately doesn't work without
+The original code is clear and quite readable, but unfortunately doesn't work without
 modification because of a dependency problem :cry:
 
 ## Main result
