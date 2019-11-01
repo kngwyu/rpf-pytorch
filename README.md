@@ -7,14 +7,14 @@ You can play with it in
 [this google collaboratory link](https://colab.research.google.com/github/kngwyu/rpf-pytorch/blob/master/rpf_pytorch.ipynb)
 .
 
-Contents are almost the same as the original one, but I added some additional
-exeperiments, like RPF without BootDQN.
-
-You can find the original notebook in the original
+You can find the original notebook in the paper's
 [project page](https://sites.google.com/corp/view/randomized-prior-nips-2018/home).
 The original code is clear and quite readable, but unfortunately doesn't work without
-modification because of a dependency problem around `pip install git+`
-:cry:
+modification on google colab because of a dependency problem :cry:
+
+This notebook follows the original one and contents are almost the
+same, except I added some additional exeperiments like RPF without
+BootDQN.
 
 ## Main result
 Here is the performance of ε-greedy/BootDQN/RPF/RPF+BootDQN in 20x20 DeepSea.
