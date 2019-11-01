@@ -10,10 +10,11 @@ You can play with it in
 Contents are almost the same as the original one, but I added some additional
 exeperiments, like RPF without BootDQN.
 
-You can find the original notebook in the
-[author's website](https://sites.google.com/corp/view/randomized-prior-nips-2018/home).
+You can find the original notebook in the original
+[project page](https://sites.google.com/corp/view/randomized-prior-nips-2018/home).
 The original code is clear and quite readable, but unfortunately doesn't work without
-modification because of a dependency problem :cry:
+modification because of a dependency problem around `pip install git+`
+:cry:
 
 ## Main result
 Here is the performance of ε-greedy/BootDQN/RPF/RPF+BootDQN in 20x20 DeepSea.
@@ -27,11 +28,12 @@ But the performance is somewhat **a bit poorer** than the author's
 result left in their notebook.
 
 And **the result looks unstable** in that the number of episodes
-needed to get plus return varys greatly(1200~3000 episodes).
+needed to converge on the optimal policy varys siginificanly
+(2000~3000 episodes).
 
 There's some possible reasons for that, say,
 - My implementaion is incorrect
-- Some insignificant implementaion differences like initialization
+- Some minor design choices(like NN initialization)
 
 But I think this result shows **we must get lucky** for suceeding in
 exploration, even if we use nice exploration-exploitation algorithms
